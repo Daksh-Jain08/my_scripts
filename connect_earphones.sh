@@ -1,7 +1,7 @@
 #!/bin/bash
 
-EARPHONES_ADDRESS="88:D0:39:66:DA:D6"
-EARPHONES_NAME="Realme Buds Air Pro"
+EARPHONES_ADDRESS="<Your_Device_Mac>"
+EARPHONES_NAME="<Your_Device_Name>"
 
 if ! [ -x "$(command -v bluetoothctl)" ]; then
   echo 'Error: Bluetooth is not available.' >&2
